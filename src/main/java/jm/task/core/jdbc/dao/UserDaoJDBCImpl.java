@@ -19,7 +19,7 @@ public class UserDaoJDBCImpl implements UserDao  {
                     "  `name` VARCHAR(50) NOT NULL,\n" +
                     "  `lastname` VARCHAR(50) NOT NULL,\n" +
                     "  `age` INT NOT NULL,\n" +
-                    "  PRIMARY KEY (`id`) )");
+                    "  PRIMARY KEY (`id`))");
         } catch (SQLException e) {
             e.printStackTrace();
         }
